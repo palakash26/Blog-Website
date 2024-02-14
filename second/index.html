@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form action="" oninput="result.value=parseInt(x.value)+parseInt(x.value)">
+            <fieldset>
+                <legend>Select</legend>
+                <label for="Meal_choice">Meal Choice:</label>
+                <select name="meal_choice" id="Meal_choice">
+                    <option value="r1">No Proferece</option>
+                    <option value="r2">Yas Proferece</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Datalist</legend>
+                <label for="meal_choice1">Meal_choice:</label>
+                <input name="meal_choice" id="meal_choice1" list="type_of_meal">
+                <datalist id="type_of_meal">
+                    <option value="no_preference">No_preference</option>
+                    <option value="yash">Yas prefecene</option>
+                </datalist>
+            </fieldset>
+        </form>
+        <form action="" oninput="result.value=parseInt(x.value)+parseInt(x.value)">
+            <fieldset>
+                <legend>Output</legend>
+                <input id="x" type="range" value="0">
+                + <input id="y" type="number" value="10">
+                = <output for="x y" name="result"></output>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
