@@ -4,7 +4,7 @@ Here’s a comprehensive README file for your project:
 
 # Animation Website - Choose Your Own Adventure Monster
 
-![Project Logo](./img/monster-bg.PNG)
+![Project Logo]((https://res.cloudinary.com/dqqgiiflj/image/upload/v1749710506/monster-bg_fho9wl.png))
 
 ## Overview
 
